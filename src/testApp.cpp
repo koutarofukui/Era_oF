@@ -58,7 +58,6 @@ void testApp::update(){
                 
                 myRect.push_back(new rect(ofPoint(0, ofGetWidth()/2), duration * 500, 10));
                 //myRect.insert(rectIt, new rect(ofPoint(0, ofGetWidth()/2), duration * 500, 10));
-                //cout << myRect[rectNum]->getPos().x <<endl;
 
             }
             
@@ -96,8 +95,6 @@ void testApp::draw(){
         myRect[i]->draw();
     }
     //*/
-    //ofSetBackgroundAuto(false);
-    //myRect[1].draw();
 
 }
 
